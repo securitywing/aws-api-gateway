@@ -7,11 +7,11 @@ variable "lambda-function-name" {
    }
 
 variable "URI_NAME" {
-     default = "https://api-test.sixthgalaxy.com/message"
+     default = "https://api-test.yourdomain.com/message"
    }
 
 variable "new_subdomain" {
-    default = "api-test.sixthgalaxy.com"
+    default = "api-test.yourdomain.com"
 }
 
 variable "stage_name" {
@@ -20,16 +20,16 @@ variable "stage_name" {
 
 
 variable "gateway_name" {
-     default = "api-test.sixthgalaxy.com"
+     default = "api-test.yourdomain.com"
     }
 
 variable "deployed_stage_name" {
     default = "prod-stage"
     }
 
-# SSL ARN
+# SSL ARN - ARN of the SSL stored in ACM
 variable "example_cert" {
-   default = "arn:aws:acm:eu-west-1:607281769355:certificate/62c3b8ef-5fac-4adf-8ab2-a9539b17364c"
+   default = ""
  }
 variable "hosted_zone_id" {
      default = ""
