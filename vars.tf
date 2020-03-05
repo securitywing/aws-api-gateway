@@ -35,7 +35,3 @@ variable "hosted_zone_id" {
      default = ""
 }
 
-# source arn format "arn:aws:execute-api:eu-west-1:account_id:api-gateway-id/authorizers/authorizer-id"
-#variable "lambda-source-arn" {
-#   default = "arn:aws:execute-api:eu-west-1:607281769355:lr72e38nvc/authorizers/h2bqn8"
-#}
